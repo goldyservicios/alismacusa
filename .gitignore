@@ -1,0 +1,103 @@
+#################################################
+# WORDPRESS CORE
+#################################################
+
+# Core de WordPress
+wp-admin/
+wp-includes/
+
+# Archivos principales del core
+wp-*.php
+xmlrpc.php
+readme.html
+license.txt
+
+#################################################
+# CONFIGURACIÓN LOCAL
+#################################################
+
+# Configuración sensible
+wp-config.php
+.env
+
+#################################################
+# CONTENIDO WORDPRESS
+#################################################
+
+# Subidas de usuarios (pesado y dinámico)
+wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/upgrade/
+
+# Backups
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/updraft/
+
+#################################################
+# ARCHIVOS TEMPORALES
+#################################################
+
+*.log
+*.tmp
+*.bak
+*.swp
+
+#################################################
+# BASES DE DATOS
+#################################################
+
+*.sql
+*.gz
+*.zip
+
+#################################################
+# NODE / BUILD TOOLS
+#################################################
+
+node_modules/
+dist/
+build/
+
+#################################################
+# SISTEMA OPERATIVO
+#################################################
+
+.DS_Store
+Thumbs.db
+
+#################################################
+# IDE / EDITORES
+#################################################
+
+.vscode/
+.idea/
+
+#################################################
+# XAMPP
+#################################################
+
+xampp/
+
+#################################################
+# WORDPRESS CACHE PLUGINS
+#################################################
+
+wp-content/wflogs/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+
+#################################################
+# ELEMENTOR
+#################################################
+
+wp-content/uploads/elementor/css/
+wp-content/uploads/elementor/tmp/
+
+#################################################
+# PLUGINS TEMPORALES
+#################################################
+
+wp-content/plugins/*.zip

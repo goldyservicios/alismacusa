@@ -1,0 +1,103 @@
+Log created: 2026-03-04 20:50:45
+Type: backup
+[2026-03-04 20:50:48][notice]Start backing up.
+[2026-03-04 20:50:48][notice]server info fcgi:Off max execution time: 300 wp version:6.9.1 php version:8.2.12 db version:10.4.32 php ini:safe_mode: memory_limit:512M memory_get_usage:106.76 MB memory_get_peak_usage:107.46 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2026-03-04 20:50:48][notice]Prepare to backup backup_db files.
+[2026-03-04 20:50:48][notice]Start exporting database.
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfls_role_counts
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_rank_math_internal_meta
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfauditevents
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfblockediplog
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfcrawlers
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wffilechanges
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wflocs
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfls_settings
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfnotifications
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfreversecache
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfsecurityevents
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wftrafficrates
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfwaffailures
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_actionscheduler_claims
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_actionscheduler_groups
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_e_events
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_links
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_rank_math_404_logs
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_rank_math_redirections_cache
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_term_relationships
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_tm_tasks
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfhoover
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wflivetraffichuman
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_actionscheduler_logs
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_commentmeta
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_e_submissions_values
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_rank_math_internal_links
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_rank_math_redirections
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_smush_dir_images
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_term_taxonomy
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_termmeta
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_terms
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_tm_taskmeta
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_usermeta
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wflogins
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_e_notes_users_relations
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_users
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfblocks7
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfhits
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfsnipcache
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wpo_404_detector
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfissues
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfpendingissues
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_comments
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_e_submissions_actions_log
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_actionscheduler_actions
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_e_notes
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_wfstatus
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_posts
+[2026-03-04 20:50:48][notice]Preparing to dump table wp_e_submissions
+[2026-03-04 20:50:49][notice]Preparing to dump table wp_postmeta
+[2026-03-04 20:50:49][notice]Preparing to dump table wp_wfconfig
+[2026-03-04 20:50:49][notice]Preparing to dump table wp_options
+[2026-03-04 20:50:49][notice]Preparing to dump table wp_wfknownfilelist
+[2026-03-04 20:50:49][notice]Preparing to dump table wp_wffilemods
+[2026-03-04 20:50:49][notice]Exporting database finished.
+[2026-03-04 20:50:49][notice]Start compressing database
+[2026-03-04 20:50:49][notice]Prepare to zip file. file: localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_db.sql
+[2026-03-04 20:50:50][notice]Adding zip files completed.localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_db.part001.zip, filesize: 3.88 MB
+[2026-03-04 20:50:50][notice]Compressing database completed
+[2026-03-04 20:50:50][notice]Backing up backup_db completed.
+[2026-03-04 20:50:50][notice]Prepare to backup backup_themes files.
+[2026-03-04 20:50:50][notice]Compressing zip file:localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_themes.part001.zip index:353
+[2026-03-04 20:50:50][notice]Compressing zip file:localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_themes.part001.zip success. index:353 file size:8.85 MB
+[2026-03-04 20:50:50][notice]Backing up backup_themes completed.
+[2026-03-04 20:50:50][notice]Prepare to backup backup_plugin files.
+[2026-03-04 20:50:54][notice]Compressing zip file:localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_plugin.part001.zip index:9193
+[2026-03-04 20:51:09][notice]Compressing zip file:localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_plugin.part001.zip success. index:9193 file size:63.00 MB
+[2026-03-04 20:51:10][notice]Backing up backup_plugin completed.
+[2026-03-04 20:51:10][notice]Prepare to backup backup_uploads files.
+[2026-03-04 20:51:10][notice]Compressing zip file:localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_uploads.part001.zip index:49
+[2026-03-04 20:51:10][notice]Compressing zip file:localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_uploads.part001.zip success. index:49 file size:3.05 MB
+[2026-03-04 20:51:10][notice]Backing up backup_uploads completed.
+[2026-03-04 20:51:10][notice]Prepare to backup backup_content files.
+[2026-03-04 20:51:10][notice]Compressing zip file:localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_content.part001.zip index:13
+[2026-03-04 20:51:15][notice]Compressing zip file:localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_content.part001.zip success. index:13 file size:5.58 MB
+[2026-03-04 20:51:15][notice]Backing up backup_content completed.
+[2026-03-04 20:51:15][notice]Prepare to backup backup_core files.
+[2026-03-04 20:51:16][notice]Compressing zip file:localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_core.part001.zip index:2916
+[2026-03-04 20:51:20][notice]Compressing zip file:localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_core.part001.zip success. index:2916 file size:14.59 MB
+[2026-03-04 20:51:20][notice]Backing up backup_core completed.
+[2026-03-04 20:51:20][notice]Prepare to backup backup_merge files.
+[2026-03-04 20:51:20][notice]Prepare to zip file. file: localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_db.zip
+[2026-03-04 20:51:20][notice]Adding zip files completed.localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_all.part001.zip, filesize: 3.88 MB
+[2026-03-04 20:51:20][notice]Prepare to zip file. file: localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_themes.zip
+[2026-03-04 20:51:20][notice]Adding zip files completed.localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_all.part001.zip, filesize: 12.69 MB
+[2026-03-04 20:51:20][notice]Prepare to zip file. file: localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_plugin.zip
+[2026-03-04 20:51:22][notice]Adding zip files completed.localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_all.part001.zip, filesize: 73.31 MB
+[2026-03-04 20:51:22][notice]Prepare to zip file. file: localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_uploads.zip
+[2026-03-04 20:51:22][notice]Adding zip files completed.localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_all.part001.zip, filesize: 76.35 MB
+[2026-03-04 20:51:22][notice]Prepare to zip file. file: localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_content.zip
+[2026-03-04 20:51:22][notice]Adding zip files completed.localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_all.part001.zip, filesize: 81.52 MB
+[2026-03-04 20:51:23][notice]Prepare to zip file. file: localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_core.zip
+[2026-03-04 20:51:23][notice]Adding zip files completed.localhost_alimascusa_wpvivid-1c8827e0fda42_2026-03-04-20-50_backup_all.part001.zip, filesize: 95.66 MB
+[2026-03-04 20:51:23][notice]Backing up backup_merge completed.
+[2026-03-04 20:51:23][notice]Backup completed.
